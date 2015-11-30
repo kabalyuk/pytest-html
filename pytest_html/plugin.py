@@ -140,10 +140,7 @@ class HTMLReport(object):
                 log.append(' {0} '.format(header).center(80, '-'))
                 log.append(html.br())
                 log.append(content)
-        else:
-            log = html.div(class_='empty log')
-            log.append('No log output captured.')
-        additional_html.append(log)
+            additional_html.append(log)
 
         self.test_logs.append(html.tr([
             html.td(result, class_='col-result'),
