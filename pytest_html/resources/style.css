@@ -62,7 +62,7 @@ span.error, span.failed, span.xpassed, .failed .col-result, .xpassed .col-result
  *------------------*/
 
 #results-table {
-	border: 1px solid #e6e6e6;
+	border: 1px solid #454545;
 	color: #999;
 	font-size: 12px;
 	width: 100%
@@ -70,7 +70,7 @@ span.error, span.failed, span.xpassed, .failed .col-result, .xpassed .col-result
 
 #results-table th, #results-table td {
 	padding: 5px;
-	border: 1px solid #E6E6E6;
+	border: 1px solid #454545;
 	text-align: left
 }
 #results-table th {
